@@ -1,0 +1,51 @@
+<div class="dropup">
+	<button class="dropbtn">Dropup</button>
+	<div class="dropup-content">
+		<a href="#">Link 1</a>
+		<a href="#">Link 2</a>
+		<a href="#">Link 3</a>
+	</div>
+</div>
+
+<style>
+	.dropbtn {
+		background-color: #3498db;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+	}
+
+	.dropup {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropup-content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		bottom: 50px;
+		z-index: 1;
+	}
+
+	.dropup-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropup-content a:hover {
+		background-color: #ccc;
+	}
+
+	.dropup:hover .dropup-content {
+		display: block;
+	}
+
+	.dropup:hover .dropbtn {
+		background-color: #2980b9;
+	}
+</style>
