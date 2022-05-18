@@ -1,6 +1,9 @@
 {
 	"name": "@components_/svelte",
 	"version": "0.0.3",
+	"keywords": [
+		"svelte","svelte-kit"
+	],
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"dev:host": "svelte-kit dev --host",
