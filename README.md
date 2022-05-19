@@ -6,7 +6,9 @@
 
 ## Description
 
-<h2 id="nav">Nav🏠 </h2>
+***
+
+<div id="nav">
 
 * [Instalation](#instalation)
 * [Usage 🔰](#usage)
@@ -21,6 +23,8 @@
 * [License 📄](#license)
 * [Docs 📚](https://user-name.github.io/project-name)
 * <a href="./kanban.md" title="kanban">Kanban <img width="2%" src="https://res.cloudinary.com/rick-rick-torrellas/image/upload/v1629301660/icons/kanban_oifhu7.png"/></a>
+
+</div>
 
 ***
 
