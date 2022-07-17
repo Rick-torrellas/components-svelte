@@ -1,7 +1,14 @@
+<script context="module">
+    export async function load({url}) {
+    return {
+      props: {
+        url
+      }
+    }
+  }
+</script>
 <script>
-    import Accordion from "$lib/examples/css/menus/Accordion.svelte";
-    import Responsive_Sidebar from "$lib/examples/css/menus/Responsive_Sidebar.svelte";
+    export let url;
 </script>
 <h1>Examples</h1>
-<Responsive_Sidebar />
-<Accordion />
+<a href="{url.pathname}/menus">Menus</a>
