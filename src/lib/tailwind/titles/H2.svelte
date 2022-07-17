@@ -3,4 +3,4 @@
     let h2 = `${text_size}`;
 </script>
 
-<h2 class="${h2}"><slot></slot></h2>
+<h2 class="{h2}"><slot></slot></h2>
