@@ -1,4 +1,4 @@
-import Examples from "./examples";
+import tailwind from "./tailwind";
 let Components_Svelte = {}
-Components_Svelte.Examples = Examples;
+Components_Svelte.tailwind = tailwind;
 export default Components_Svelte;
