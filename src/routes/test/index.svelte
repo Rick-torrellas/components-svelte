@@ -1,5 +1,5 @@
 <script>
-    import H2 from "$lib/tailwind/titles/H2.svelte"
+import Red from "$lib/Tailwind/Titles/H1__color/Red.svelte";
 </script>
-<H2>Epa</H2>
-<p>Ola</p>
+
+<Red>Olis</Red>

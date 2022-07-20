@@ -1,4 +1,4 @@
-let tailwind = {}
-import titles from "./titles";
-tailwind.titles = titles;
-export default tailwind;
+let Tailwind = {}
+import Titles from "./Titles";
+Tailwind.titles = Titles;
+export default Tailwind;

@@ -1,6 +1,6 @@
 <script>
-    import Nav from "$lib/tailwind/navbar/Nav.svelte";
-    import Nav__Button from "$lib/tailwind/navbar/Nav__Button.svelte"
+    import Nav from "$lib/Tailwind/Navbar/Nav.svelte";
+    import Nav__Button from "$lib/Tailwind/Navbar/Nav__Button.svelte"
 </script>
 
 <Nav>

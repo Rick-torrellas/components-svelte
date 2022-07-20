@@ -1,6 +1,7 @@
 <script>
     export let text_size = "text-5xl";
-    let h1 = `${text_size}`;
+    export let text_color = "text-black"
+    let h1_style = `${text_size} ${text_color}`;
 </script>
 
-<h1 class="{h1}"><slot></slot></h1>
+<h1 class="{h1_style}"><slot></slot></h1>
