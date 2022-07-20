@@ -1,4 +1,4 @@
 let Tailwind = {}
 import Titles from "./Titles";
-Tailwind.titles = Titles;
+Tailwind.Titles = Titles;
 export default Tailwind;
